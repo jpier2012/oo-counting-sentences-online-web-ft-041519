@@ -25,3 +25,5 @@ class String
 end
 
 string = String.new("This is a new string")
+
+puts string.name
