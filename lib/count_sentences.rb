@@ -24,7 +24,3 @@ class String
     sentences.length
   end
 end
-
-string = String.new("test!!!! test2.!.? test3..?.!..")
-
-puts string.
