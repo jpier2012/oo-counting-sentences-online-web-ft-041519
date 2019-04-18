@@ -1,6 +1,9 @@
 require 'pry'
 
 class String
+  def initialize(name)
+    @name = name
+  end  
 
   def sentence?
     self.end_with?(".")
@@ -18,3 +21,5 @@ class String
     self.split(/[\!\.\?]+/)
   end
 end
+
+string = String.new("This is a new string")
