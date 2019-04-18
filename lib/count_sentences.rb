@@ -5,6 +5,8 @@ class String
     @name = name
   end
 
+  attr_reader :name
+
   def sentence?
     self.end_with?(".")
   end
