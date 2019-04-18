@@ -23,3 +23,5 @@ class String
     self.split(/[\!\.\?]+/)
   end
 end
+
+string = String.new("test!!!! test2.!.? test3..?.!..")
