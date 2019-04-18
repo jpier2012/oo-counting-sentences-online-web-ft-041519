@@ -20,8 +20,11 @@ class String
   end
 
   def count_sentences
-    self.split(/[\!\.\?]+/)
+    sentences = self.split(/[\!\.\?]+/)
+    sentences.length
   end
 end
 
 string = String.new("test!!!! test2.!.? test3..?.!..")
+
+puts string.
