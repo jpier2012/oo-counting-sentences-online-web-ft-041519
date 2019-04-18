@@ -1,13 +1,13 @@
 require 'pry'
 
 class String
-def initialize(name)
+  def initialize(name)
     @name = name
   end
-  
+
   attr_reader :name
 
-  
+
   def sentence?
     self.end_with?(".")
   end
