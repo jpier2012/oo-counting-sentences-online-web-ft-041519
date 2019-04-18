@@ -7,7 +7,6 @@ class String
 
   attr_reader :name
 
-
   def sentence?
     self.end_with?(".")
   end
