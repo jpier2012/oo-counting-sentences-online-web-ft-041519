@@ -3,7 +3,7 @@ require 'pry'
 class String
   def initialize(name)
     @name = name
-  end  
+  end
 
   def sentence?
     self.end_with?(".")
